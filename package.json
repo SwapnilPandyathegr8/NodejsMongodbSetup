@@ -1,0 +1,42 @@
+{
+  "name": "mongodb-expressjs-nodejs-boilerplate",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start:dev": "nodemon ./bin/boot.js"
+  },
+  "dependencies": {
+    "ajv": "^5.5.2",
+    "aws-sdk": "^2.382.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "dotenv": "^4.0.0",
+    "ejs": "~2.5.7",
+    "express": "^4.16.4",
+    "express-promise-router": "^2.0.0",
+    "forever": "^0.15.3",
+    "forever-monitor": "^1.7.1",
+    "helmet": "^3.9.0",
+    "jsonwebtoken": "^8.1.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.0.0-rc0",
+    "morgan": "^1.9.1",
+    "multer": "^1.3.0",
+    "serve-favicon": "~2.4.5",
+    "uuid": "^3.1.0",
+    "validator": "^9.2.0",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.18.9"
+  }
+}
