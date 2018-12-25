@@ -1,0 +1,8 @@
+node_modules/
+.idea/
+*.log
+gov_doc_upload
+package-lock.json
+public/gov_doc_upload
+public/user-images
+logs/
